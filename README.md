@@ -39,11 +39,12 @@ project/
 ## 环境配置与运行
 1.**Gotdot安装**
    - 前往以下网址进行下载
-   - https://docs.godotengine.org/zh-cn/4.x/
+   - https://godotengine.org/download/windows/
    - 所有成员请保持版本一致，避免兼容问题
 
 2.**Gotdot配置**
-   -
+   - 以下为官方文档，注意查询
+   - https://docs.godotengine.org/zh-cn/4.x/
 
 ## 注意事项
 1. **Git 安装**  
