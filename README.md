@@ -1,23 +1,47 @@
-# Unity Game Project
+# Godot Game Project
 
 ## 项目简介
-本项目是由我们四名学生团队在业余时间完成的 Unity 游戏开发练习。  
-项目旨在提升我们的 Unity 使用能力、游戏开发实践经验，以及团队协作能力。  
+本项目是由我们四名学生团队在业余时间共同完成的 Godot 游戏开发练习。
+项目旨在提升我们的游戏开发能力、编程实践经验，以及团队协作能力。
 
-游戏内容为（还在思索），  
-使用 Unity 6.3 LTS 版本进行开发，支持 Windows 平台。
+当前项目类型为：**俯视角动作类 Rogue 游戏（Top-down Action Roguelike）**
+平台支持：Windows
+
+---
+
+## 技术栈
+- 游戏引擎：Godot
+- 编程语言：GDScript
+- 版本控制：Git + GitHub
+
+---
 
 ## 团队成员
 - swomHL
 - Techyacrs
 - Muxa
-- 
-（剩下的进来自己填）
+- （待补充）
 
-## 使用说明
-1. 使用 Unity 6.3 LTS 打开项目  
-2. 在 Unity 中运行 `MainScene`
-3. 修改或扩展脚本/资源时，请遵循 Git 提交规范  
+---
+
+## 项目结构
+```text
+project/
+├── project.godot      # 项目配置文件（核心文件，请勿删除）
+├── scenes/            # 场景文件（.tscn）
+├── scripts/           # 脚本文件（.gd）
+├── assets/            # 图片、音频等资源
+├── ui/                # UI相关资源（可选）
+└── docs/              # 项目文档（可选）
+
+##环境配置和运行
+1.**Gotdot安装**
+   - 前往以下网址进行下载
+   - https://docs.godotengine.org/zh-cn/4.x/
+   - 所有成员请保持版本一致，避免兼容问题
+
+2.**Gotdot配置**
+   -
 
 ## 注意事项
 1. **Git 安装**  
@@ -28,14 +52,15 @@
    - 打开 Git Bash / PowerShell  
    - 输入：
      ```bash
-     git clone https://github.com/qnzzdd/Unity_game.git
+     git clone https://github.com/qnzzdd/Gotdot_game.git
      ```
    - 进入项目文件夹：
      ```bash
-     cd Unity_game
+     cd Gotdot_game
      ```
 
-3. **提交修改**  
+3. **提交修改**
+   - ***请严格按照协作规范***
    - 修改完成后，依次执行：
      ```bash
      git add .
@@ -51,7 +76,7 @@
    - 保证本地仓库与远程仓库同步
 
 5. **不要上传大文件**  
-   - Unity 的 `Library/`、`Temp/`、`Obj/` 文件夹请不要上传  
+   - 例如 `Library/`、`Temp/`、`Obj/` 文件夹请不要上传  
    - 仓库已配置 `.gitignore`，请遵守规则
 
 6. **保持提交简洁**  
@@ -63,8 +88,13 @@
      ```
 
 ---
+## Godot 使用注意事项
 
-## 注意
-- GitHub 仓库主要存放 **项目资源、脚本、场景文件**  
-- Unity 自动生成的缓存文件和临时文件请勿上传  
-- 建议在开发前熟悉 **Git 基本操作**，避免覆盖他人修改  
+- `project.godot` 是项目核心文件，请勿删除
+- `.import/` 文件夹需要提交（Godot依赖资源导入信息）
+- 不同版本 Godot 可能导致项目无法打开，请统一版本
+- 场景（.tscn）和脚本（.gd）是核心开发文件
+
+## Git注意事项
+- GitHub 仓库主要存放 **项目资源、脚本、场景文件**
+- 建议在开发前熟悉 **Git 基本操作**，避免覆盖他人修改
