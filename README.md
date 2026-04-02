@@ -34,7 +34,8 @@ project/
 ├── ui/                # UI相关资源（可选）
 └── docs/              # 项目文档（可选）
 
-##环境配置和运行
+---
+## 环境配置与运行
 1.**Gotdot安装**
    - 前往以下网址进行下载
    - https://docs.godotengine.org/zh-cn/4.x/
